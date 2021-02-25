@@ -1,0 +1,94 @@
+/* O Hotel */
+
+#hotel {
+    padding-top: 59px;
+}
+
+#titulo-principal-div {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-principal {
+    width: 50%;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 6.4px;
+    margin-bottom: 29px;
+    color: #BABABA;
+    text-transform: uppercase;
+}
+
+#hotel-carousel-desktop .carousel-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 104%;
+    margin-left: -1.397%;
+}
+
+#hotel-carousel-desktop img, #asd {
+    height: 381px;
+    width: 394px;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.cartao-reservas {
+    height: 338px;
+    width: 357px;
+    margin-left: 10px;
+    padding: 0 10px;
+}
+
+.cartao-reservas div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 40px;
+    background-color: #F16136;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 23px 16px #00000029;
+}   
+
+.cartao-reservas h5 {
+    font: normal normal bold 32px/20px Lato;
+}
+
+.cartao-reservas p {
+    font: normal normal bold 15px/19px Lato;
+    max-width: 230px;
+    padding: 15px 0;
+}
+
+.carousel-btn {
+    padding: 5px 0;
+    width: 242px;
+    background-color: white;
+    color: #F16136;
+    border-radius: 19px;
+    text-decoration: none;
+    vertical-align: center;
+    text-align: center;
+}
+
+.carousel-btn:hover {
+    color: #F16136;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: unset;
+}
+
+.carousel-control-prev div, .carousel-control-next div {
+    font-size: 26px;
+    padding: 0 15px;
+    color: #F16136;
+    background-color: white;
+}

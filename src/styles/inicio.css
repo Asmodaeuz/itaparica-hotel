@@ -1,0 +1,169 @@
+/* Início */
+
+#inicio {
+    min-height: 100vh;
+    height: 100vh;
+    background: url("../assets/img/Image3@2x.png") no-repeat center / 100vw 100vh;
+}
+
+/* Card */
+
+.cartao {
+    align-items: center;
+    height: 403px;
+    width: 272px;
+    margin-top: 10%;
+    margin-left: 20%;
+    padding: 19px 15px 12px;
+    border-radius: 11px;
+    box-shadow: 0px 3px 26px #947B5F74;
+}
+
+.card-img-top {
+    height: 72px;
+    width: 130px;
+}
+
+.cartao span {
+    text-transform: uppercase;
+    color: #707070;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.cartao hr {
+    height: 2px;
+    width: 250px;
+    color: #E6E6E6;
+    opacity: 1;
+}
+
+.corpo-cartao {
+    padding: 15px 0 0;
+}
+
+.corpo-cartao * {
+    margin-bottom: 10px;
+    font: normal normal bold 16px/19px Lato;
+    letter-spacing: 0px;
+}
+
+.card-text {
+    color: #707070;
+}
+
+.cartao-notes {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartao-notes, .cartao-notes * {
+    margin-bottom: 0;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 117px;
+    padding: 10px;
+    border: 1px solid #E6E6E6;
+    border-radius: 6px;
+}
+
+.booking {
+    color: #2CAFE7;
+    display: flex;
+}
+
+.booking div {
+    border: 2px solid #2CAFE7;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.trip-advisor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #00A680;
+}
+
+.radio-item {
+    padding-top: 16px;
+}
+
+.trip-advisor p {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* Radio Buttons Customizados */
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #00A680;
+}
+
+input[type="radio"]:checked + *::before {
+    background: radial-gradient(#00A680 0%, #00A680 40%, transparent 50%, transparent);
+    border-color: #00A680;
+}
+
+input[type="radio"]:checked + * {
+    color: #00A680;
+}
+
+#rolar-pagina {
+    bottom: 30px;
+    right: 15%;
+    color: #FFFFFF;
+    text-decoration: none;
+    font: normal normal bold 16px/19px Lato;
+    animation: 1.9s ease-in-out infinite;
+}
+
+#rolar-pagina:hover {
+    animation-name: bounce;
+}
+
+#rolar-pagina i {
+    font-size: 24px;
+    padding-left: 5px;
+    vertical-align: sub;
+}
+
+/* Bounce */
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-10px);
+		-ms-transform:     translateY(-10px);
+		transform:         translateY(-10px)
+	}
+	60% {
+		-webkit-transform: translateY(-5px);
+		-ms-transform:     translateY(-5px);
+		transform:         translateY(-5px)
+	}
+}

@@ -1,0 +1,41 @@
+/* Promoções */
+
+#secao-dupla {
+    background-color: #F0F0F0;
+    padding-bottom: 42px;
+}
+
+#sobre, #sobre img {
+    margin-top: -1px;
+    width: 375px;
+}
+
+#sobre {
+    margin-right: 43px;
+    background-color: #272729;
+    font: normal normal bold 16px/19px Lato;
+    color: #EFEFEF;
+    border-radius: 0px 0px 6px 6px;
+}
+
+#sobre p {
+    padding: 28px 29px 41px;
+}
+
+#promocoes {
+    padding-top: 35px;
+}
+
+#promocoes-carousel-desktop {
+    width: 621px;
+}
+
+#promocoes-carousel-desktop img:nth-child(1) {
+    height: 409px;
+    width: 252px;
+}
+
+#promocoes-carousel-desktop img:nth-child(2) {
+    height: 409px;
+    width: 252px;
+}

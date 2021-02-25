@@ -1,0 +1,192 @@
+/* Media queries */
+
+@media all and (min-width: 768px) and (max-width: 1350px) {
+    .desktop-xl {
+        display: none;
+    }
+
+    #hotel-carousel-mobile {
+        display: none;
+    }
+
+    .mobile-xl {
+        display: block;
+    }
+
+    #hotel-carousel-mobile-xl .carousel-inner {
+        display: flex;
+        height: 360px;
+        margin-bottom: 50px;
+    }
+    
+    #hotel-carousel-mobile-xl img {
+        height: 385px;
+        width: 400px;
+    }
+}
+
+@media all and (max-width: 1040px) {
+    .desktop-lg {
+        display: none!important;
+    }
+
+    .mobile-lg {
+        display: block;
+    }
+
+    #promocoes-carousel-mobile {
+        width: auto;
+        max-width: 300px;
+    } 
+}
+
+@media all and (max-width: 860px) {
+    .imagem-contato, #menu-contato, #contato-info {
+        margin: 0px 5px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    header nav {
+        padding: 0 30px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .desktop, .desktop-xl, .mobile-xl {
+        display: none!important;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    /* Header */
+
+    header {
+        position: fixed;
+        z-index: 3;
+        bottom: 0;
+        padding: 0 3% 1%;
+        width: 100%;
+    }
+
+    header nav {
+        padding: 0 10px;
+    }
+
+    /* Início */
+
+    #inicio {
+        background: url("../assets/img/Image3@2x.png") no-repeat center / cover;
+    }
+
+    .card {
+        margin-top: 0;
+        top: 10%;
+    }
+
+    .cartao {
+        margin: 0 auto;
+    }
+
+    /* Quartos */
+
+    /* O Hotel */
+
+    .titulo-principal {
+        width: 100%;
+        font: normal normal bold 28px/34px Lato;
+        letter-spacing: 5.6px;
+    }
+
+    #hotel-carousel-mobile .carousel-inner {
+        display: flex;
+        height: 329px;
+    }
+    
+    #hotel-carousel-mobile img {
+        height: 329px;
+        width: 340px;
+    }
+
+    .cartao-reservas {
+        height: 291px;
+        width: 320px;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    /* Seção Dupla */
+
+    #sobre {
+        min-width: 320px;
+        max-width: 375px;
+        width: 100%;
+    }
+
+    /* Carrossel promoções */
+
+    #promocoes-carousel-mobile {
+        width: 100%;
+        max-width: 300px;
+    } 
+
+    #promocoes-carousel-mobile img {
+        height: 409px;
+    }
+
+    /* Localização */
+
+    #mapa {
+        margin-top: -13px;
+        margin-bottom: -50px;
+        width: 93%;
+        background-position-x: 55%;
+    }
+
+    /* Endereço */
+
+    #endereco div:not(.mobile) {
+        padding: 0 30px;
+    }
+    
+    #endereco p {
+        margin: 0 0 20px;
+    }
+
+    #endereco button {
+        width: 100%;
+        padding: 13px 25px;
+    }
+
+    /* Contato */
+
+    #contato {
+        padding-top: 15px;
+        padding-bottom: 90px;
+    }
+
+    #contato button {
+        color: white;
+    }
+
+    #contato .botao:not(.botao-especial) {
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+    }
+}
+
+@media all and (min-width: 768px) and (min-height: 1000px) {
+    .card {
+        transform: scale(1.6);
+        top: 15%;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .navbar-brand a {
+        padding: 0.5rem 1rem!important;
+    }
+}

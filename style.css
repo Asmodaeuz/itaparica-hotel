@@ -1,0 +1,95 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.mobile, .mobile-lg, .mobile-xl {
+    display: none;
+}
+
+/* Botões */
+
+.botao {
+    max-width: 375px;
+}
+
+.botao {
+    border: 1px solid #9A9A9A;
+    border-radius: 19px;
+    color: #9A9A9A;
+    padding: 10px;
+}
+
+.botao:hover {
+    color: #707070;
+}
+
+.botao:active, .botao:focus {
+    box-shadow: none;
+}
+
+.botao-especial {
+    background-color: #F16136;
+    border: none;
+    color: white;
+}
+
+.botao-especial:hover {
+    color: white;
+}
+
+/* Header */
+
+header {
+    padding: 15px 42px 0;
+}
+
+nav {
+    padding: 0 97px;
+    height: 74px;
+    border-radius: 8px;
+}
+
+.logo {
+    height: 65px;
+    width: 62px;
+}
+
+ul li {
+    padding: 0 8px;
+}
+
+ul li:last-child {
+    padding-right: 0;
+}
+
+a {
+    color: #9A9A9A;
+}
+
+a:hover {
+    color: #707070;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-toggler {
+    min-width: 130px;
+    width: 20%;
+    color: #9A9A9A;
+    vertical-align: middle;
+}
+
+.navbar-toggler span {
+    font: normal normal bold 16px/20px Raleway;
+    text-transform: uppercase;
+    color: #9A9A9A;
+}
+
+.fa-bars {
+    font-size: 36px;
+}
+
